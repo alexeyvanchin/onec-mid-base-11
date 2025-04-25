@@ -7,14 +7,14 @@
     <listType typeId="a98a023b-cbfa-4548-ab4f-110cb938218b" valueTypeId="bcb1f3f3-6b48-437a-af04-6d3ffa249089"/>
     <managerType typeId="9659c503-c6b8-4be2-915d-bb24c2f3f918" valueTypeId="cd1c5769-0bbd-4b87-a127-ba1f21330a68"/>
   </producedTypes>
-  <name>ДЗ_КонтактныеЛица</name>
+  <name>ДЗ_КонтактноеЛицо</name>
   <synonym>
     <key>ru</key>
-    <value>Контактные Лица</value>
+    <value>Контактное Лицо</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ДЗ_КонтактныеЛица.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ДЗ_КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДЗ_КонтактноеЛицо.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДЗ_КонтактноеЛицо.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
