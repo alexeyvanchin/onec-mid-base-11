@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b6c85c2-6035-4729-bc49-9353f99f68d6">
+  <producedTypes>
+    <objectType typeId="a95edff8-32d6-4adf-aa3b-322e705469c5" valueTypeId="2947149e-8505-4ddc-ac74-119c13a728e0"/>
+    <refType typeId="8ee1f089-9f30-4188-9380-55dc07413a02" valueTypeId="425130e2-004f-46df-9f47-e124d25316a8"/>
+    <selectionType typeId="7af2af5a-718b-4e74-a142-0e2e3df688fe" valueTypeId="85396579-9e07-40d2-a966-cecd56ccaf6b"/>
+    <listType typeId="a98a023b-cbfa-4548-ab4f-110cb938218b" valueTypeId="bcb1f3f3-6b48-437a-af04-6d3ffa249089"/>
+    <managerType typeId="9659c503-c6b8-4be2-915d-bb24c2f3f918" valueTypeId="cd1c5769-0bbd-4b87-a127-ba1f21330a68"/>
+  </producedTypes>
+  <name>ДЗ_КонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные Лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДЗ_КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДЗ_КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контактное Лицо</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Контактное Лицо</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контактные Лица</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Контактные Лица</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
