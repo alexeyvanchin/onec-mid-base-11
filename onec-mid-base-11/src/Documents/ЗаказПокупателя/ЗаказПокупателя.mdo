@@ -193,6 +193,58 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="44e28274-4939-4410-bd47-b2fabe014417">
+    <name>ДЗ_КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное Лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДЗ_КонтактноеЛицо</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b8a0e5d-876a-4dde-abd6-a78bc9346caa">
+    <name>ДЗ_СогласованнаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласованная Скидка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:StringValue">
+      <value>100.00</value>
+    </maxValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e958095-4fb6-4387-83fe-99b7f8a39adf">
+    <name>Пересчитано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересчитано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="d2984117-1a5a-45ca-bc97-adb070bd946d">
     <name>ФормаДокумента</name>
     <synonym>
